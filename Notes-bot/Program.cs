@@ -14,7 +14,7 @@ namespace Notes_bot;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         using var cts = new CancellationTokenSource();
         var botClient = new TelegramBotClient("7957079084:AAEySj8z-W70Q-viYfWUga_DGIpWL2OlyiA",
