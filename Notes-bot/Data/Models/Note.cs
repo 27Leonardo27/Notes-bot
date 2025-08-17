@@ -1,3 +1,5 @@
+using System;
+
 namespace Notes_bot.Models;
 
 public class Note

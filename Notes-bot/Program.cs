@@ -1,4 +1,7 @@
-﻿using System.Xml.Xsl;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Xml.Xsl;
 using Notes_bot.Services;
 using Telegram.Bot;
 using Telegram.Bot.Polling;

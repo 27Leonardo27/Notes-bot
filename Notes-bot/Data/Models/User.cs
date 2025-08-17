@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Notes_bot.Models;
 
 public class User

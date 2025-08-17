@@ -10,6 +10,6 @@ public class NotesDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("Server=mayhem.keenetic.link;Port=5432;Database=NotesDB;User Id=User123;Password=Pass123!;");
+        optionsBuilder.UseNpgsql("Server=192.168.1.86;Port=5432;Database=NotesDB;User Id=leonardo;Password=Pass1488;");
     }
 }

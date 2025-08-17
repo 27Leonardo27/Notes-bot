@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Notes_bot.Models;
 
@@ -43,4 +46,6 @@ public class NoteService
         
         return notes;
     }
+    
+    
 }
